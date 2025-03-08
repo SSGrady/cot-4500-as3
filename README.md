@@ -6,14 +6,18 @@ This repository provides two numerical solutions to ordinary differential equati
 - NumPy (install using `pip install numpy`)
 
 ## Setup
-### 1. Clone with SSH and Run Python
+### 1. Clone with SSH
 ```bash
 git clone git@github.com:SSGrady/cot-4500-as3.git
 cd cot-4500-as3/
+```
+
+### 2. Run Script
+```py
 python3 src/main/assignment_3.py
 ```
 
-### 2. Run Tests
+### 3. Run Tests
 ```bash
 python3 -m unittest src/test/test_assignment_3.py
 ```
